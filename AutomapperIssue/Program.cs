@@ -10,7 +10,6 @@ namespace AutoMapperIssue
         {
             // init AutoMapper
             AutomapperInit();
-
             // to test ASP.NET HTTP PATCH controller method let's create
             // a JsonPatchDocument for UserNoteDto 
             var jsonPatchDoc = new JsonPatchDocument<UserNoteDto>();
